@@ -1,0 +1,154 @@
+*{
+        margin: 0px;
+        padding:0px;
+}
+.dashboard .box_left{
+        width: 15%;
+        height: 100%;
+        position: fixed;
+        top:0px;
+        left:0px;
+        background-color: black;
+        color:white;
+}
+/* body{
+        height: 3000px;
+} */
+.dashboard .box_left .admin_name{
+        width: 100%;
+        height: 7%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:  black;
+        border-bottom: 1px solid white;
+}
+.dashboard .box_left .admin_name h5{
+        padding:10px 20px;
+        font-size: 21px;
+        border: 1px solid white;
+}
+.dashboard .box_left .menu{
+        width: 100%;
+        height: 93%;
+        /* background-color: rgb(182, 18, 18); */
+        overflow-y: scroll;
+        padding:0px 5px;
+}
+.dashboard .box_left .menu .logor_profile{
+        width: 100%;
+        height: 10%;
+        /* background-color: blanchedalmond; */
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border-bottom: 1px solid white;
+}
+.dashboard .box_left .menu .logor_profile img{
+        width: 50px;
+        height: 50px;
+        background-color: azure;
+        border-radius: 50%;
+        margin: 0px 5px;
+        object-fit: cover;
+        border: 1px solid white;
+}
+.dashboard .box_left .menu .logor_profile h5{
+        margin: 0px;
+        padding-left: 10px;
+}
+/* scoll style */
+/* width */
+::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #b4b4b4; 
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background:  #009643; 
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(60, 211, 0, 0.726); 
+      }
+
+/* .list menu */
+.list_menu {
+        list-style-type: none;
+}
+.list_menu li{
+        width: 100%;
+        margin: 2px 0px;
+        padding-left: 10px;
+}
+.list_menu li:hover{
+        background-color: #f1f1f157;
+        border-radius: 2px;
+}
+.list_menu li a{
+        display: block;
+        padding:6px;
+        font-size: 18px;
+        color:white;
+        text-decoration: none;
+}
+/* .list_menu li ul {
+        display: none;
+} */
+.list_menu li ul {
+        list-style-type: none;
+}
+.dashboard .box_right{
+        width: 85%;
+        margin-left: auto;
+        padding:0px 20px;
+}
+.dashboard .box_right .title {
+        text-align: center;
+        padding-top: 14px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        border-bottom: 1px solid black;
+}
+/* box right */
+
+.dashboard .box_right .table1{
+        margin-top: 20px;
+      
+        height: 500px;
+        box-shadow: -1px 1px 5px black;
+        overflow-y: scroll;
+        
+}
+.table1 .id{
+        width: 5%;
+}
+.status{
+        width: 15%;
+} 
+.table1 .table tr{
+        text-align: center;  
+}
+
+
+/* home_banner */
+.click_upload{
+        cursor: pointer;
+        
+}
+/* .file_image{
+        display: none;
+} */
+
+.hide{
+        width: 100%;
+        height: 80px;
+        overflow: hidden;
+}
+

@@ -1,0 +1,1 @@
+<button class="btn btn-primary mt-3 add_btn" data-toggle="modal" data-target="#myModal"><span><i class="fas fa-plus"></i></span></button>

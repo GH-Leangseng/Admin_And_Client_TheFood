@@ -1,0 +1,199 @@
+.service{
+        padding:0px;
+}
+.banner{
+        height: 600px;
+         background-color: black; 
+        position: relative;
+}
+.background{
+        background-color: black;
+        opacity: 0.5;
+        top:0px;
+        left:0px;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color:white;
+        text-align: center;
+        
+}
+
+.btn_customer{
+        width: 150px;
+        border: 2px solid black;
+        padding:10px 0px;
+        font-size: 18px;
+        text-align: center;
+        border-radius: 50px;
+        margin: 10px auto;
+        color:rgb(113, 2, 216);
+        transition: 0.3s;   
+}
+.btn_customer:hover{
+        background-color: rgb(113, 2, 216);
+        color:white;
+}
+
+/* Feature */
+.Feature{
+        /* background-color: antiquewhite; */
+        padding-top: 30px;
+        height: auto;
+}
+.Feature h2{
+        text-align: center;
+        padding:40px 30px;
+}
+.Feature .row{
+        height: auto;
+        padding:0px 80px;
+        margin-bottom: 50px;
+}
+.Feature .row .col-sm-4{
+        padding:0px 20px; 
+        margin-bottom: 40px;
+        height: 600px;
+}
+.Feature .row .col-sm-4 a{
+        text-decoration: none;
+        color:black;
+}
+.Feature .row .col-sm-4 .box{
+        width: 100%;
+        height: 100%;
+        /* background-color: aqua; */
+        border-radius: 15px;
+        transition: 0.4s;
+        overflow: hidden;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.356);
+       
+}
+.Feature .row .col-sm-4 .box .img{
+        width: 100%;
+        height: 40%;
+        
+        overflow: hidden;
+        /* background-color: bisque; */
+}
+.Feature .row .col-sm-4 .box:hover{
+        margin-top: 30px;
+        cursor: pointer;
+}
+.Feature .row .col-sm-4 .box .text{
+        width: 100%;
+        height: 60%;
+        background-color: white;
+        padding:15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+       
+}
+.Feature .row .col-sm-4 .box .text img{
+        width: 40%;
+        height: auto;
+}
+.Feature .row .col-sm-4 .box .text p{
+        padding-right:50px;
+        font-size: 17px;
+}
+.Feature .row .col-sm-4 .box .text p + p{
+        color:blueviolet;
+        padding-top: 20px;
+        
+}
+/*responsive code*/
+/*mobile phone*/
+@media (max-width: 575px) {
+        .Feature .row{
+                padding:0px;
+                font-size: 10px;
+            }
+            .Feature .row .col-sm-4 a .box .text p{
+                padding:0px;
+            }
+            .Feature .row .col-sm-4 .box .text p{
+                padding:0px;
+            }
+            .service .banner{
+             
+                margin-top: 60px;
+            }
+}
+
+
+
+/*ipad*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .service .banner{
+        height: 400px;
+        margin-top: 60px;
+    }
+    .btn_customer{
+        margin-top: 10px;
+    }
+    .Feature{
+        padding:0px;
+    }
+    .Feature h2{
+        padding:0px;
+    }
+    .Feature .row{
+        padding:0px;
+        font-size: 10px;
+    }
+    .Feature .row .col-sm-4 a .box .text p{
+        padding:0px;
+    }
+    .Feature .row .col-sm-4 .box .text p{
+        padding:0px;
+    }
+    .Feature .row .col-sm-4{
+        height: 400px;
+    }       
+} 
+
+/*ipad pro*/
+@media (min-width: 992px) and (max-width: 1199px) {
+        .service .banner{
+                height: 400px;
+                margin-top: 20px;
+            }
+            .btn_customer{
+                margin-top: 10px;
+            }
+            .Feature{
+                padding:0px;
+            }
+            .Feature h2{
+                padding:0px;
+            }
+            .Feature .row{
+                padding:0px;
+                font-size: 10px;
+            }
+            .Feature .row .col-sm-4 a .box .text p{
+                padding:0px;
+            }
+            .Feature .row .col-sm-4 .box .text p{
+                padding:0px;
+            }
+            .Feature .row .col-sm-4{
+                height: 400px;
+            }   
+} 
+
+/*laptop*/
+@media (min-width: 1200px)  {
+    .service .banner{
+       
+        margin-top: 0px;
+    }
+}
+
+
